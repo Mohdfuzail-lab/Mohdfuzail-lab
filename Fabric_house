@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Ansari Cloth House</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; }
+    header { background-color: #333; color: white; padding: 15px; text-align: center; }
+    .dashboard { padding: 20px; }
+    .upload-fabric { background-color: #fff; padding: 20px; margin: 10px 0; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    .upload-fabric input { padding: 10px; margin: 10px 0; width: 100%; }
+    button { background-color: #28a745; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    button:hover { background-color: #218838; }
+    footer { text-align: center; background-color: #333; color: white; padding: 15px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Admin Dashboard</h1>
+  <p>Welcome to the Admin Panel of Ansari Cloth House</p>
+</header>
+
+<div class="dashboard">
+  <section class="upload-fabric">
+    <h2>Upload Fabric</h2>
+    <form>
+      <input type="file" name="fabric-image" accept="image/*" required>
+      <input type="text" placeholder="Fabric Name" required>
+      <input type="number" placeholder="Price" required>
+      <input type="number" placeholder="Discount Percentage" required>
+      <button type="submit">Upload Fabric</button>
+    </form>
+  </section>
+  
+  <section>
+    <h2>Fabric Management</h2>
+    <p>List of uploaded fabrics will appear here (Admin can manage them).</p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Ansari Cloth House</p>
+</footer>
+
+</body>
+</html>
