@@ -45,11 +45,4 @@
 </footer>
 
 </body>
-</html>
-            cd path/to/your/project-folder
-            git init
-            git remote add origin https://github.com/your-username/your-repository-name.git
-            git add .
-            git commit -m "Initial commit"
-            git push -u origin master
-            git push -u origin main
+</html
